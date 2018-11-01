@@ -30,5 +30,3 @@ if __name__ == '__main__':
     while not rospy.is_shutdown():
         rospy.loginfo(fd.detect_face())
         rate.sleep()
-y
-
